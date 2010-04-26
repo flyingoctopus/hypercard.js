@@ -1,1 +1,0 @@
-<fbml:iframe>/index.php</fbml:iframe>

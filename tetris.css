@@ -1,0 +1,37 @@
+.tetris-screen {
+	background-color: black;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+}
+
+.score {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+
+.lose {
+	position: absolute;
+	top: 100px;
+	left: 270px;
+	color: white;
+}
+
+.lines {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	color: rgb(256, 128, 64);
+}
+
+body {
+	background-color: rgb(128, 64, 32);
+}
+

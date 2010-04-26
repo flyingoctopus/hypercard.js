@@ -1,7 +1,53 @@
+<style type="text/css" media="screen">
+	#tabs
+	{
+		position:relative;
+		top:5px;
+		width:400px;
+		margin: 0 0 0 -200px;
+		left: 50%;
+	}
+	#tabs ul
+	{
+		margin-left: 0;
+		padding-left: 0;
+		display: inline;
+	} 
+
+	#tabs ul li
+	{
+		margin-left: 0;
+		margin-bottom: 0;
+		padding: 2px 15px 5px;
+		border: 1px solid #000;
+		list-style: none;
+		display: inline;
+	}
+
+
+	#tabs ul li.here
+	{
+		border-bottom: 1px solid #ffc;
+		list-style: none;
+		display: inline;
+	}
+</style>
+
 <fb:dashboard>
-	<fb:create-button href="http://apps.facebook.com/hypercard/invite.html">add friends</fb:create-button>
+	<fb:create-button href="http://apps.facebook.com/hypercard/invite.html" style="position:relative; left: 200px;">add friends</fb:create-button>
 	<fb:bookmark /> <fb:share-button class="url" href="http://bluemollusc.com" />
 </fb:dashboard>
 
+<div id="tabs">
+	<ul>
+		<a href=""><li class="here">Home</li></a>
+		<a href=""><li>Become a fan</li></a>
+		<a href="invite.html"><li>Invite Friends</li></a>
+		<a href=""><li>Buy Currency</li></a>
+	</ul>
+</div>
 
-<fb:iframe src="http://pjs.flyingoctopus.net/hypercardjs/tetris/" width="716" height="600" />
+
+
+
+<fb:iframe src="http://pjs.flyingoctopus.net/hypercardjs/tetris/" width="716" height="600" style="position:relative; top:20px;" />

@@ -1,5 +1,50 @@
+<style type="text/css" media="screen">
+	#tabs
+	{
+		position:relative;
+		top:5px;
+		width:400px;
+		margin: 0 0 0 -200px;
+		left: 50%;
+	}
+	#tabs ul
+	{
+		margin-left: 0;
+		padding-left: 0;
+		display: inline;
+	} 
+
+	#tabs ul li
+	{
+		margin-left: 0;
+		margin-bottom: 0;
+		padding: 2px 15px 5px;
+		border: 1px solid #000;
+		list-style: none;
+		display: inline;
+	}
+
+
+	#tabs ul li.here
+	{
+		border-bottom: 1px solid #ffc;
+		list-style: none;
+		display: inline;
+	}
+</style>
+
+
 <fb:dashboard>
 </fb:dashboard>
+
+<div id="tabs">
+	<ul>
+		<a href="index.html"><li>Home</li></a>
+		<a href=""><li>Become a fan</li></a>
+		<a href="invite.html"><li class="here">Invite Friends</li></a>
+		<a href=""><li >Buy Currency</li></a>
+	</ul>
+</div>
 
 <fb:request-form method="post" action="index.html" content="hey" type="sample" invite="true"> 
 	<fb:multi-friend-selector actiontext="Select the friends you want to invite. (All of them.)" rows="3"/>
